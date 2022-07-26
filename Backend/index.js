@@ -373,7 +373,7 @@ app.post('/moderator/reject/:id', (req, res) => {
   }
   ).then((data) => {
     console.log(data)
-    res.send(data)
+    res.send(data);
   })
 })
 
